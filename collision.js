@@ -23,7 +23,6 @@ const mouse = {
 };
 
 window.addEventListener("mousemove", (event) => {
-  console.log(event);
   mouse.x = event.x;
   mouse.y = event.y;
 });
